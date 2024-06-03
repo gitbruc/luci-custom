@@ -57,6 +57,6 @@ define Package/luci-app-wechatpush/conffiles
 /usr/share/wechatpush/api/device_aliases.list
 endef
 
-include ../../luci.mk
+include $(TOPDIR)/feeds/luci/luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
