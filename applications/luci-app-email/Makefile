@@ -7,6 +7,6 @@ LUCI_TITLE:=LuCI app for email server configuration (EmailRelay)
 LUCI_DEPENDS:=+luci-base +emailrelay
 PKG_MAINTAINER:=Sergey Ponomarev <stokito@gmail.com>
 
-include ../../luci.mk
+include $(TOPDIR)/feeds/luci/luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
